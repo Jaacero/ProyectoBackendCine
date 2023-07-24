@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\atena\\Desktop\\proyectosNetCore\\ProyectoBackendCine\\IntroAEFCore.csproj": {}
+    "C:\\Users\\atena\\Desktop\\proyectosNetCore\\ProyectoBackendCine\\IntroAEFCore.csproj": {}
   },
   "projects": {
-    "c:\\Users\\atena\\Desktop\\proyectosNetCore\\ProyectoBackendCine\\IntroAEFCore.csproj": {
+    "C:\\Users\\atena\\Desktop\\proyectosNetCore\\ProyectoBackendCine\\IntroAEFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\atena\\Desktop\\proyectosNetCore\\ProyectoBackendCine\\IntroAEFCore.csproj",
+        "projectUniqueName": "C:\\Users\\atena\\Desktop\\proyectosNetCore\\ProyectoBackendCine\\IntroAEFCore.csproj",
         "projectName": "IntroAEFCore",
-        "projectPath": "c:\\Users\\atena\\Desktop\\proyectosNetCore\\ProyectoBackendCine\\IntroAEFCore.csproj",
+        "projectPath": "C:\\Users\\atena\\Desktop\\proyectosNetCore\\ProyectoBackendCine\\IntroAEFCore.csproj",
         "packagesPath": "C:\\Users\\atena\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\atena\\Desktop\\proyectosNetCore\\ProyectoBackendCine\\obj\\",
+        "outputPath": "C:\\Users\\atena\\Desktop\\proyectosNetCore\\ProyectoBackendCine\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\atena\\AppData\\Roaming\\NuGet\\NuGet.Config"

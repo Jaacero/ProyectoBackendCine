@@ -31,4 +31,15 @@ namespace IntroAEFCore.Controllers;
           return Ok();
 
         }
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Pelicula>>> Get()
+        {
+             var actores = await _context.Peliculas
+             .Select(p => new {
+                p.Titulo,
+                p.EnCines,
+                p.FechaEstreno
+             }).ToListAsync();
+             return Ok(actores);
+        }
     }
