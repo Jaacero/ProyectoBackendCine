@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "67Gn3aLjfy6mkuER6NrEaiKCQOlTxGvat+LymfT4sJdQk7cuHwfmHIu8p/0uw83/TllAP0sblSxvzw9ZGjlTbg==",
+  "dgSpecHash": "chAhvzhdCxSFLXGqIwg8qLjOGNACgkr3zyhWXxGU6VDY0BSfokb3GOBLJ7h5K98jgeP86r8SDzwtAPyTb9Vnhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\atena\\Desktop\\proyectosNetCore\\ProyectoBackendCine\\IntroAEFCore.csproj",
+  "projectFilePath": "c:\\Users\\atena\\Desktop\\proyectosNetCore\\ProyectoBackendCine\\IntroAEFCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\atena\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\atena\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

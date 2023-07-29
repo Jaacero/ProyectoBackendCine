@@ -1,8 +1,10 @@
 using System.ComponentModel.DataAnnotations.Schema;
+using ProyectoBackendCine.Entities;
+
 namespace IntroAEFCore.Entities;
-public class Actor
+public class Actor :BaseEntity
 {
-    public int Id { get; set; }
+   
     [Column(TypeName = "varchar(80)")]
     public string Nombre { get; set; } = null!;
     public DateTime FechaNacimineto { get; set; }

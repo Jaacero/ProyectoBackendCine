@@ -1,9 +1,8 @@
 using System.ComponentModel.DataAnnotations.Schema;
-
+using ProyectoBackendCine.Entities;
 namespace IntroAEFCore.Entities;
-public class Pelicula
+public class Pelicula : BaseEntity
 {
-    public int Id { get; set; }
     [Column(TypeName = "varchar(100)")]
     public string Titulo { get; set; } = null!;
     public bool EnCines {get; set; }

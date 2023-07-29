@@ -1,9 +1,9 @@
 using System.Collections.Generic;
+using ProyectoBackendCine.Entities;
 namespace IntroAEFCore.Entities;
 
-    public class Comentario
+    public class Comentario : BaseEntity
     {
-        public int Id {get; set;}
         public string ? Contenido {get; set;}
         public bool Recomendar {get; set;}
         public int PeliculaId {get; set;}

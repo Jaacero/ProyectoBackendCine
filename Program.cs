@@ -5,7 +5,7 @@ using ProyectoBackendCine.Extensions;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
+builder.Services.ConfigureCors();
 builder.Services.AddControllers();
 builder.Services.AddAplicationServices();
 builder.Services.AddControllers()
@@ -29,7 +29,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseCors("CorsPolicy");
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

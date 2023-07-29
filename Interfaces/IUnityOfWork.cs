@@ -8,6 +8,7 @@ namespace ProyectoBackendCine.Interfaces
     public interface IUnityOfWork
     {
         IActorInterface Actores {get;}
+        IPeliculaInterface Peliculas {get;}
         Task<int> Save();
     }
 }
